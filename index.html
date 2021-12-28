@@ -1,8 +1,10 @@
 <html>
+
   <head>
-  <title> Paleta de Cores </title> 
-  <link rel="stylesheet" href="style.css">
+    <title> Paleta de Cores </title> 
+    <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <h1 id="title"> Paleta de Cores </h1>
     <section id="color-palette">
@@ -16,42 +18,48 @@
       </div>
     </section>
     
-    <button id="clear-board">Limpar</button>
-    
-    <section id="pixel-board">
-      <div class="pixel" id="border-pixel"></div><!--
+    <section id="board-interaction">
+      <button id="clear-board" type="button">Limpar</button>
+    </section>
+
+    <section class="pixel-row1" id="pixel-board">
+      <div class="pixel"></div><!--
     --><div class="pixel"></div><!--
     --><div class="pixel"></div><!--
     --><div class="pixel"></div><!--
     --><div class="pixel"></div>
-        <br>
-      <div class="pixel" id="border-pixel"></div><!--
+    </section>
+    <section class="pixel-row2" id="pixel-board">
+      <div class="pixel"></div><!--
       --><div class="pixel"></div><!--
       --><div class="pixel"></div><!--
       --><div class="pixel"></div><!--
       --><div class="pixel"></div>
-        <br>
-      <div class="pixel" id="border-pixel"></div><!--
+    </section>
+    <section class="pixel-row3" id="pixel-board">
+      <div class="pixel"></div><!--
       --><div class="pixel"></div><!--
       --><div class="pixel"></div><!--
       --><div class="pixel"></div><!--
       --><div class="pixel"></div>
-        <br>
-      <div class="pixel" id="border-pixel"></div><!--
+    </section>
+    <section class="pixel-row4" id="pixel-board">
+      <div class="pixel"></div><!--
       --><div class="pixel"></div><!--
       --><div class="pixel"></div><!--
       --><div class="pixel"></div><!--
       --><div class="pixel"></div>
-        <br>
-      <div class="pixel" id="border-pixel"></div><!--
+    </section>
+    <section class="pixel-row5" id="pixel-board">
+      <div class="pixel"></div><!--
       --><div class="pixel"></div><!--
       --><div class="pixel"></div><!--
       --><div class="pixel"></div><!--
       --><div class="pixel"></div>
-
       <!-- O requisito 4 foi feito graças à pagina
       https://stackoverflow.com/questions/5078239/how-do-i-remove-the-space-between-inline-inline-block-elements -->
-    </section> 
+    </section>
+    
     <script src="script.js"></script>
   </body>
 </html>
