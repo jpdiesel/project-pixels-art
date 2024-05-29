@@ -45,6 +45,26 @@ h1 {
   background-color: yellow;
 }
 
+#color5 {
+  background-color: green;
+}
+
+#color6 {
+  background-color: orange;
+}
+
+#color7 {
+  background-color: purple;
+}
+
+#color8 {
+  background-color: lightblue;
+}
+
+#color9 {
+  background-color: white;
+}
+
 #color-palette {
   display: flex;
   justify-content: center;
